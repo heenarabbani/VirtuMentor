@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techvista</title>
+  <link rel="stylesheet" href="prac.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" media=" screen and (max-width: 768px)"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" media="screen and (max-width: 576px)"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="section section1">
+    <nav class="nav-bar">
+      <img class="logo" src="Screenshot 2024-09-12 122628.png">
+      <div class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Get Certified</a></li>
+        <li><a href="#">Contact</a></li>
+        <button>Sign in</button>
+      </ul>
+    </nav>
+    <main>
+      <p class="slogan">Learn to Code: Everything <b>You</b> Need to Get Started</p>
+      <div class="search-container">
+        <input type="search" placeholder="Search...">
+        <span class="search-icon"><i class="fa-solid fa-magnifying-glass" style="color: #080808;"></i></span>
+      </div>
+      <div class="Courses">
+        <h2 class="heading">Courses</h2>
+        <ul class="c-links">
+          <li><a href="#">DSA</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">AL ML & DataScience</a></li>
+          <li><a href="#">Programming Language</a></li>
+          <li><a href="#">DevOps</a></li>
+        </ul>
+      </div>
+    </main>
+  </div>
+  <div class="section section2">
+    <div class="heading2">
+      <h2>Explore</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="box box1">
+          <div class="box-icon">
+            <i class="fa-brands fa-html5" style="color: #080808;"></i>
+          </div>
+          <h3 class="box-heading">HTML</h3>
+          <a href="https://www.w3schools.com/html/" class="box-link">Learn More</a>
+        </div>
+
+        <div class="box box2">
+          <div class="box-icon">
+            <i class="fa-brands fa-css3-alt" style="color: #080808;"></i>
+          </div>
+          <h3 class="box-heading">CSS</h3>
+          <a href="https://www.w3schools.com/css/" class="box-link">Learn More</a>
+        </div>
+
+        <div class="box box3">
+          <div class="box-icon">
+            <i class="fa-brands fa-js" style="color: #080808;"></i>
+          </div>
+          <h3 class="box-heading">JavaScript</h3>
+          <a href="https://www.w3schools.com/javascript/" class="box-link">Learn More</a>
+        </div>
+
+        <div class="box box4">
+          <div class="box-icon">
+            <i class="fa-brands fa-python" style="color: #080808;"></i>
+          </div>
+          <h3 class="box-heading">Python</h3>
+          <a href="https://www.w3schools.com/python/" class="box-link">Learn More</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="box box5">
+          <div class="box-icon">
+            <img src="sql-server.png">
+          </div>
+          <h3 class="box-heading">SQL</h3>
+          <a href="https://www.w3schools.com/sql/" class="box-link">Learn More</a>
+        </div>
+
+        <div class="box box6">
+          <div class="box-icon">
+            <i class="fa-brands fa-java" style="color: #080808;"></i>
+          </div>
+          <h3 class="box-heading">JAVA</h3>
+          <a href="https://www.w3schools.com/java/" class="box-link">Learn More</a>
+        </div>
+
+        <div class="box box7">
+          <div class="box-icon">
+            <img src="c++.png">
+          </div>
+          <h3 class="box-heading">C++</h3>
+          <a href="https://www.w3schools.com/cpp/" class="box-link">Learn More</a>
+        </div>
+
+        <div class="box box8">
+          <div class="box-icon">
+            <img src="c.png">
+          </div>
+          <h3 class="box-heading">C</h3>
+          <a href="https://www.w3schools.com/c/" class="box-link">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section3">
+    <div class="Certified">
+      <p>Stand out from the crowd - Get Certified and demonstrate your commitment to excellence!</p>
+      <button class="btn">Get Started</button>
+    </div>
+  </div>
+
+  <div class="section section4">
+    <div class="footer">
+      <div>
+        <img class="footer-logo" src="Screenshot 2024-09-12 122628.png">
+        <h2 class="logo-name">VirtuMentor</h2>
+      </div>
+      <div class="networks">
+        <li><a href="#"><img src="instagram.png" height="50px"></a></li>
+        <li><a href="#"><img src="linkedin.png" height="50px"></a></li>
+        <li><a href="#"><img src="youtube.png" height="50px"></a></li>
+        <li><a href="#"><img src="facebook.png" height="50px"></a></li>
+      </div>
+
+      <ul class="company">
+        <h2>Company</h2>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Legel</a></li>
+        <li><a href="#">Advertise with us</a></li>
+        <li><a href="#">Placement Training</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul class="Explore">
+        <h2>Explore</h2>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">C</a></li>
+        <li><a href="#">Python</a></li>
+        <li><a href="#">SQL</a></li>
+        <li><a href="#">JAVA</a></li>
+        <li><a href="#">C++</a></li>
+        <li><a href="#">JavaScript</a></li>
+      </ul>
+      <ul class="courses">
+        <h2>Courses</h2>
+        <li><a href="#">DSA</a></li>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">AL ML & DataScience</a></li>
+        <li><a href="#">Programming Language</a></li>
+        <li><a href="#">DevOps</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="section section5">
+    <div class="sec5-footer">
+      <p>@VirtuMentor | All rights reserved</p>
+    </div>
+  </div>
+
+  <script src="prac.js"></script>
+</body>
+
+</html>
